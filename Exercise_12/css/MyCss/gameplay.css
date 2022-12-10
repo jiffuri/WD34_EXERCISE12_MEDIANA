@@ -1,0 +1,92 @@
+
+body{
+    
+}
+.myVideos{
+   
+    width: 83vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+ 
+}
+.myVideoItem{
+    
+    padding-right: 1.2rem;
+}
+iframe{
+    width: 500px;
+    height: 280px;
+    
+}
+.dropdown{
+    text-decoration: none;
+}
+h5{
+    text-align: start;
+    margin: 2rem;
+    margin-bottom: 1rem;
+    opacity: .6;
+}
+
+
+
+@media (max-width: 912px){
+
+    .myVideos{
+        width: 100vw;
+        flex: none;
+        display: inline-block;
+        margin: 0px;
+        
+    }
+    iframe{
+        width: 600px;
+        height: 330px;
+        
+    }
+
+}
+@media (max-width: 575.98px){
+    
+    iframe{
+        width: 350px;
+        height: 197px;
+        
+    }
+ 
+
+}
+@media (max-width: 414px){
+    .myVideos{
+        width: 100vw;
+        flex: none;
+        display: inline-block;
+        margin: 0px;
+        
+     
+    }
+    iframe{
+        width: 310px;
+        height: 170px;
+        
+    }
+}
+@media (max-width: 280px){
+    .myVideos{
+        width: 100vw;
+        flex: none;
+        display: inline-block;
+        margin: 0px;
+        
+     
+    }
+    iframe{
+        width: 250px;
+        height: 140px;
+        
+    }
+}

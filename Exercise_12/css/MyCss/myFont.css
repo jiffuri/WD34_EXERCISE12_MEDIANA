@@ -1,0 +1,24 @@
+@font-face {
+    font-family: CenturyExpanded;
+    src: url(../../font/CenturyExpandedLTStd.ttf);
+}
+@font-face {
+    font-family: kahitano;
+    src: url(../../font/Netigen.ttf);
+}
+@font-face {
+    font-family: Futura;
+    src: url(../../font/futuralightbt.ttf);
+}
+@font-face {
+    font-family: Hell;
+    src: url(../../font/Helvetica.ttf);
+}
+@font-face {
+    font-family: sness;
+    src: url(../../font/sness.ttf);
+}
+@font-face {
+    font-family: gameFont1;
+    src: url(../../font/gameFont1.ttf);
+}

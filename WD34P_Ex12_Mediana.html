@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exercise_12/css/Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="Exercise_12/css/MyCss/style.css">
+    <link rel="stylesheet" href="Exercise_12/css/MyCss/dynamicStyle.css">
+    <link rel="stylesheet" href="Exercise_12/css/MyCss/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+
+</head>
+<body class="bg-dark">
+
+<!--NAVIGATION-->
+<!--
+  <nav class="navbar navbar-expand-lg bg-gradient">
+    <div class="container-fluid pe-5 ps-5">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#angNavbar" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="angNavbar">
+        <a class="navbar-brand " href="#">Hidden brand</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item text-light">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GAME LIST</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">GAMEPLAY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">CHEAT CODES</a>
+          </li>
+        </ul>
+          
+      </div>
+    </div>
+  </nav>-->
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <div class="container-fluid">
+     
+        <button class="navbar-toggler bg-warning bg-gradient mx-auto" data-bs-toggle="collapse" data-bs-target="#angMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="collapse navbar-collapse" id="angMenu">
+            <ul class="navbar-nav mx-auto menuText">
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Exercise_12/pages/list.html" class="nav-link text-light">GAME LIST</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle text-light" id="dropdownMenu" data-bs-toggle="dropdown">VIDEOS</a>
+                    <ul class="dropdown-menu bg-dark" aria-labellledby="dropdownMenu">
+                        <li>
+                            <div><a href="Exercise_12/pages/gameplay.html" class="dropdown item">GAMEPLAY</a></div>
+                            <div><a href="#" class="dropdown item">SPEED RUN</a></div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+ 
+
+  
+<!-- GAME TYPE-->
+  <h1 class="gameGenre">V<span>IDEO</span> G<span>AME</span> G<span>ENRES</span></h1>
+  <div class="container text-center pt-4">
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-2"><img src="Exercise_12/img/rts/rts1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/rts/rts2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/rts/rts3.gif" alt="" class="img-fluid disImage"></div>
+      
+      <div class="col-5 text-center rtsMain">
+        <a href="Exercise_12/pages/rts.html">
+          <h1 class="myRTS"><span>R T S</span></h1>
+          <h1 class="myRTS2" id="myRTS2"><span>Real Time Strategy</span></h1>
+        </a>
+      </div>
+        <div class="col-1"><img src="Exercise_12/img/icons/rts_icon.png" alt="" style="width: 100%;height: 100%;"></div> 
+      </div>
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-1"><img src="Exercise_12/img/icons/fps_icon.png" alt="" style="width: 100%;height: 100%;"></div>
+      <div class="col-5 text-center fpsMain">
+        <a href="Exercise_12/pages/fps.html">
+          <h1 class="myFPS">F P S</h1>
+          <h1 class="myFPS2">F<span>irst</span> P<span>erson</span> S<span>hooter</span></h1></div>
+        </a>
+      <div class="col-2"><img src="Exercise_12/img/fps/fps1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/fps/fps2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/fps/fps3.gif" alt="" class="img-fluid disImage"></div> 
+    </div>
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-2"><img src="Exercise_12/img/rpg/rpg1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/rpg/rpg2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/rpg/rpg3.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-5 text-center rpgMain">
+        <h1 class="myRPG">R P G</h1>
+        <h1 class="myRPG2">R<span>ole</span> P<span>laying</span> G<span>ame</span></h1>
+      </div>
+      <div class="col-1"><img src="Exercise_12/img/icons/rpg_icon.png" alt="" style="width: 100%;height: 100%;"></div>
+    </div>
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-1"><img src="Exercise_12/img/icons/sim_icon.png" alt="" style="width: 100%;height: 100%;"></div>
+      <div class="col-5 text-center simMain">
+        <h1 class="mySIM">SIM/Sports</h1>
+        <h1 class="mySIM2">S<span>imulation</span> <span>/</span> S<span>ports</span></h1>
+      </div>
+      <div class="col-2"><img src="Exercise_12/img/ss/ss1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/ss/ss2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/ss/ss3.gif" alt="" class="img-fluid disImage"></div> 
+    </div>
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-2"><img src="Exercise_12/img/moba/moba1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/moba/moba2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/moba/moba3.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-5 text-center mobaMain">
+        <a href="Exercise_12/pages/moba.html">
+          <h1 class="myMOBA">M O B A</h1>
+          <h1 class="myMOBA2">M<span>ultiplayer</span> O<span>nline</span> B<span>attle</span> A<span>rena</span></h1>
+        </a>
+      </div>
+      <div class="col-1"><img src="Exercise_12/img/icons/moba_icon.png" alt="" style="width: 100%;height: 100%;"></div>
+    </div>
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-1"><img src="Exercise_12/img/icons/advent_icon.png" alt="" style="width: 100%;height: 100%;"></div>
+      <div class="col-5 text-center adventMain">
+        <h1 class="myAdvent">Adventure</h1>
+        <h1 class="myAdvent2">Action/Adventure</h1>
+      </div>
+      <div class="col-2"><img src="Exercise_12/img/advent/advent1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/advent/advent2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/advent/advent3.gif" alt="" class="img-fluid disImage"></div>
+    </div>
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-2"><img src="Exercise_12/img/fg/fg1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/fg/fg2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/fg/fg3.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-5 text-center vsMain">
+        <h1 class="myVS">Versus</h1>
+        <h1 class="myVS2">Fighting Game</h1>
+      </div>
+      <div class="col-1"><img src="Exercise_12/img/icons/vs_icon.png" alt="" style="width: 100%;height: 100%;"></div>
+    </div>
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-1"><img src="Exercise_12/img/icons/plat_icon.png" alt="" style="width: 100%;height: 100%;"></div>
+      <div class="col-5 text-center platMain">
+        <h1 class="myPlat">Platform</h1>
+        <h1 class="myPlat2">sd</h1>
+      </div>
+      <div class="col-2"><img src="Exercise_12/img/plat/plat1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/plat/plat2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/plat/plat3.gif" alt="" class="img-fluid disImage"></div>
+    </div>
+    <div class="d-flex border-bottom border-danger border-opacity-25 myRowSize" >
+      <div class="col-2"><img src="Exercise_12/img/party/party1.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/party/party2.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-2"><img src="Exercise_12/img/party/party3.gif" alt="" class="img-fluid disImage"></div>
+      <div class="col-5 text-center partyMain">
+        <h1 class="myParty">Puzzle/Party</h1>
+        <h1 class="myParty2">Party Game</h1>
+      </div>
+      <div class="col-1"><img src="Exercise_12/img/icons/party_icon.png" alt="" style="width: 100%;height: 100%;"></div>
+    </div>
+  </div>
+
+
+<h1 class="gameTopListText  pt-5 text-center">MY TOP LIST</h1>
+<div class="container pt-3">
+  <div id="gameTopList">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Exercise_12/img/caro1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro4.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro5.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro6.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro7.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro8.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro9.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Exercise_12/img/caro10.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container text-center bg-gradient mt-5 " style="height: 60rem;">
+  <section class="text-light pt-5" style="height: 12rem;">
+    <h1>PC SYSTEM REQUIREMENTS</h1>
+  </section>
+  <div class="row text-start p-3">
+    <div class="col-6 text-light pcRequired">
+      <h2 class="text-center">Minimum Specifications</h2>
+      <p class="text-center">Here are the minimum specifications needed</p><br>
+      <p><span>OS:</span> Windows 10 64 Bit (latest update)</p>
+      <p><span>CPU:</span> Intel Core i3-6100 / Core i5-2500K or AMD Ryzen 3 1200</p>
+      <p><span>RAM:</span> 8 GB</p> 
+      <p><span>Hi-Rez Assets Cache:</span> Up to 32 GB
+      <p><span>Video Card:</span> NVIDIA GeForce GTX 960 or AMD Radeon RX 470
+      <p><span>Video Memory:</span> 2 GB</p>
+    </div>
+    <div class="col-6 text-light pcRequired">
+      <h2 class="text-center">Recommended Specifications</h2>
+      <p class="text-center">The recommended specs to run at 60FPS in most situations</p><br>
+      <p><span>OS:</span> Windows 10 64 Bit (latest update) or Windows 11 64 Bit (latest update)</p>
+      <p><span>CPU:</span> Intel Core i5-6600K / Core i7-4770 or AMD Ryzen 5 1400</p>
+      <p><span>RAM:</span> 12 GB</p>
+      <p><span>Hi-Rez Assets Cache:</span> Up to 32 GB</p>
+      <p><span>Video Card:</span> NVIDIA GeForce GTX 1060 or AMD Radeon RX 580</p>
+      <p><span>Video Memory:</span> 4 GB</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- FOOTER  -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">This website is my EXERCISE_12 assignment, for Kodego Bootcamp. The Language I use for this site are html and css with Bootstrap. Some fonts download from other website, icons through font awesom and Bootstrap. </p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Categories</h6>
+        <ul class="footer-links">
+          <li><a href="">Playstation</a></li>
+          <li><a href="">Desktop Computer</a></li>
+          <li><a href="">XBOX</a></li>
+          <li><a href="">Nintendo</a></li>
+          <li><a href="">Handheld Console</a></li>
+          <li><a href="">Emulator</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">Contribute</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">jiffuri
+     
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="https://www.facebook.com"><i class="bi bi-facebook"></i></a></li>
+          <li><a class="messenger" href="#"><i class="bi bi-messenger"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+ 
+<!-- JAVA CRIPT-->
+  <script src="Exercise_12/js/BootstrapJs/bootstrap.bundle.js"></script>  
+  <script src="Exercise_12/js/MyJs/scroll-down.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@media (max-width: 575.98px) {
+    .myRowSize{
+        height: 3rem;
+    }
+    .myCustomFlex{
+        flex: none;
+        flex-direction: column-reverse;
+    }
+    #leftSideBar{
+        display: none;
+        margin-bottom: 7rem;
+    }
+    #rightSideBar{
+        padding: 1rem;
+    }
+
+/* Font Sizing */
+    .myRTS,.myFPS,.myRPG{
+        font-size: 20px;
+        padding-top: 6%;
+        letter-spacing: 1rem;
+    }
+    .myMOBA,.myVS{
+        font-size: 20px;
+        padding-top: 6%;
+        letter-spacing: .5rem;
+    }
+    .myAdvent, .myPlat{
+        font-size: 10px;
+        padding-top: 15%;
+        letter-spacing: .5rem;
+    }
+    .mySIM,.myParty{
+        font-size: 10px;
+        padding-top: 15%;
+        letter-spacing: .3rem;
+    }
+/* Font Sizing */
+    .myRTS2, .myFPS2, .myRPG2, .mySIM2, .myMOBA2, .myAdvent2, .myVS2, .myPlat2{
+        font-size: 20px;
+        padding-top: 6%;
+    }
+}
+
+
+@media (max-width: 912px){
+    .myRowSize{
+        height: 3rem;
+    }
+    .myCustomFlex{
+        flex: none;
+        flex-direction: column-reverse;
+    }
+    #leftSideBar{
+        width: 100vw;
+        height: 20vh;
+        padding: 2px;
+    }
+    #rightSideBar{
+        padding: 1rem;
+    }
+
+/* Font Sizing */
+    .myRTS,.myFPS,.myRPG{
+        font-size: 22px;
+        padding-top: 6%;
+        letter-spacing: 1rem;
+    }
+    .myMOBA,.myVS{
+        font-size: 20px;
+        padding-top: 4%;
+        letter-spacing: .5rem;
+    }
+    .myAdvent, .myPlat{
+        font-size: 20px;
+        padding-top: 4%;
+        letter-spacing: .5rem;
+    }
+    .mySIM,.myParty{
+        font-size: 20px;
+        padding-top: 4%;
+        letter-spacing: .3rem;
+    }
+/* Font Sizing */
+    .myRTS2, .myFPS2, .myRPG2, .mySIM2, .myMOBA2, .myAdvent2, .myVS2, .myPlat2{
+        font-size: 20px;
+        padding-top: 6%;
+    }
+}
+
+
+@media (max-width: 412px){
+    .myRowSize{
+        height: 3rem;
+    }
+    .myCustomFlex{
+        flex: none;
+        flex-direction: column-reverse;
+    }
+    #leftSideBar{
+        width: 100vw;
+        height: 20vh;
+        padding: 2px;
+    }
+    #rightSideBar{
+        padding: 1rem;
+    }
+
+/* Font Sizing */
+    .myRTS,.myFPS,.myRPG{
+        font-size: 22px;
+        padding-top: 6%;
+        letter-spacing: 1rem;
+    }
+    .myMOBA,.myVS{
+        font-size: 20px;
+        padding-top: 4%;
+        letter-spacing: .5rem;
+    }
+    .myAdvent, .myPlat{
+        font-size: 10px;
+        padding-top: 10%;
+        letter-spacing: .5rem;
+    }
+    .mySIM,.myParty{
+        font-size: 10px;
+        padding-top: 10%;
+        letter-spacing: .3rem;
+    }
+/* Font Sizing */
+    .myRTS2, .myFPS2, .myRPG2, .mySIM2, .myMOBA2, .myAdvent2, .myVS2, .myPlat2{
+        font-size: 20px;
+        padding-top: 6%;
+    }
+}
+
+
+
+
+
+
+
+
+

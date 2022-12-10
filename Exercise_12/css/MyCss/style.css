@@ -1,0 +1,264 @@
+@import url(myFont.css);
+
+
+body{
+ 
+}
+nav{
+    z-index: 99;
+ 
+}
+.menuText{
+    padding-top: .5rem;
+    font-size: larger;
+    font-family: 'CenturyExpanded', Courier, monospace;
+    font-weight: bold;
+}
+div > a{
+    color: white;
+    text-decoration: none;
+}
+.sideClick{
+    text-decoration: none;
+    font-family: 'sness', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 37px;
+}
+.myCustomFlex{
+    display: flex;
+    
+}
+.pcRequired span{
+    font-weight: bolder;
+    color: burlywood;
+}
+
+.myRTS, .myFPS, .myRPG, .mySIM, .myMOBA,.myAdvent,.myVS, .myPlat, .myParty{
+    color: whitesmoke;
+    padding-top: ;
+    font-family: gameFont1, Helvetica, sans-serif;
+    
+}
+#myRTS2, .myFPS2, .myRPG2, .mySIM2, .myMOBA2, .myAdvent2, .myVS2, .myPlat2, .myParty{
+    padding-top: 7%;
+}
+
+/*   INDIVIDUAL FONT SIZE */
+.myRTS{
+    
+    font-size: 5rem;
+    letter-spacing: 1.5rem;
+    
+}
+.myFPS{
+    font-size: 5rem;
+    letter-spacing: 1.3rem;
+}
+.myRPG{
+    font-size: 5rem;
+    letter-spacing: 1.3rem;
+}
+.mySIM{
+    padding-top: 4%;
+    font-size: 3.5rem;
+    letter-spacing: .5rem;
+}
+.myMOBA{
+    font-size: 5rem;
+    letter-spacing: 1rem;
+}
+.myAdvent{
+    padding-top: 3%;
+    font-size: 4rem;
+    letter-spacing: .3rem;
+}
+.myVS{
+    font-size: 5rem;
+    letter-spacing: 1rem;
+}
+.myPlat{
+    padding-top: 3%;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+}
+.myParty{
+    padding-top: .8rem;
+    font-size: 3.6rem;
+    letter-spacing: .12rem;
+}
+
+.gameTopListText{
+    color: white;
+}
+#gameTopList{
+    font-family: 'CenturyExpanded', Courier, monospace;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+/* RTS Display */
+
+.rtsMain .myRTS2{
+    display: none;
+}
+.rtsMain:hover .myRTS{
+   display: none;
+}
+.rtsMain:hover .myRTS2{
+    display: inline;
+    color: crimson;
+}
+/* FPS DISPLAY */
+.fpsMain .myFPS2{
+    display: none;
+}
+.fpsMain:hover .myFPS{
+    display: none;
+}
+.fpsMain:hover .myFPS2{
+    display: inline;
+    color: crimson;
+}
+/* RPG DISPLAY */
+.rpgMain .myRPG2{
+    display: none;
+   
+}
+.rpgMain:hover .myRPG{
+    display: none;
+   
+}
+.rpgMain:hover .myRPG2{
+    display: inline;
+    color: crimson;
+}
+/* SIM SPORTS DISPLAY */
+.simMain .mySIM2{
+    display: none;
+}
+.simMain:hover .mySIM{
+    display: none;
+}
+.simMain:hover .mySIM2{
+    display: inline;
+    color: crimson;
+}
+/* MOBA DISPLAY */
+.mobaMain .myMOBA2{
+    display: none;
+}
+.mobaMain:hover .myMOBA{
+    display: none;
+}
+.mobaMain:hover .myMOBA2{
+    display: inline;
+    color: crimson;
+    
+}
+.adventMain .myAdvent2{
+    display: none;
+}
+.adventMain:hover .myAdvent{
+    display: none;
+}
+.adventMain:hover .myAdvent2{
+    display: inline;
+    color: crimson;
+}
+.vsMain .myVS2{
+    display: none;
+}
+.vsMain:hover .myVS{
+    display: none;
+}
+.vsMain:hover .myVS2{
+    display: inline;
+    color: crimson;
+}
+.platMain .myPlat2{
+    display: none;
+}
+.platMain:hover .myPlat{
+    display: none;
+}
+.platMain:hover .myPlat2{
+    display: inlne;
+    color: crimson;
+}
+.partyMain .myParty2{
+    display: none;
+}
+.partyMain:hover .myParty{
+    display: none;
+}
+.partyMain:hover .myParty2{
+    display: inline;
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+.disImage{
+    height: 100%;
+    width: 100%;
+}
+.myRowSize{
+    height: 6rem;
+    background: black;
+}
+.gameGenre{
+    text-align: center;
+    margin-top: 4rem;
+    color: whitesmoke;
+    font-family: 'Futura', Courier, monospace;
+}
+.gameGenre span{
+    opacity: .5;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
